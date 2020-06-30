@@ -1,9 +1,13 @@
 [tool.poetry]
 name = "ca-bundle"
 version = "0.1.0"
-description = ""
+description = "No more SSL errors because of unset REQUESTS_CA_BUNDLE."
 authors = ["Matúš Ferech"]
 license = "MIT"
+
+readme = "README.md"
+repository = "https://github.com/matusf/ca-bundle/"
+keywords = ["ssl", "ca-certificates", "requests"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
