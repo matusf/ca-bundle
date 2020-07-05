@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ca-bundle"
-version = "0.1.0"
+version = "0.1.1"
 description = "No more SSL errors because of unset REQUESTS_CA_BUNDLE."
 authors = ["Matúš Ferech"]
 license = "MIT"
