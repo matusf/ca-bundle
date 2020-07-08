@@ -7,7 +7,7 @@ license = "MIT"
 
 readme = "README.md"
 repository = "https://github.com/matusf/ca-bundle/"
-keywords = ["ssl", "ca-certificates", "requests"]
+keywords = ["ssl", "tls", "ca-certificates", "requests"]
 
 [tool.poetry.dependencies]
 python = "^3.6"

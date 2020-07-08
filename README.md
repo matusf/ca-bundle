@@ -2,7 +2,7 @@
 
 No more `SSLError`s because of unset `REQUESTS_CA_BUNDLE`.
 
-This package searches through common locations of SLL certificates on linux and sets
+This package searches through common locations of SSL / TLS certificates on linux and sets
 the first existing location to `REQUESTS_CA_BUNDLE` and `HTTPLIB2_CA_CERTS` environment variables.
 
 ## Installation

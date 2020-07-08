@@ -5,8 +5,8 @@ from typing import Optional
 
 
 def install(path: Optional[str] = None):
-    '''Search through common locations of SLL certificates on linux and set
-    the first existing location to REQUESTS_CA_BUNDLE and HTTPLIB2_CA_CERTS
+    '''Search through common locations of SSL / TLS certificates on linux and
+    set the first existing location to REQUESTS_CA_BUNDLE and HTTPLIB2_CA_CERTS
     environment variables.
     '''
     if platform != 'linux':
